@@ -13,7 +13,8 @@ def half_birthday(my_birthday):
     :param my_birthday: recent birthday date
     :return: half birthday 6 months later
     """
-    pass
+    my_half_birthday = my_birthday + timedelta(days=181)
+    return my_half_birthday
 
 
 if __name__ == '__main__':
